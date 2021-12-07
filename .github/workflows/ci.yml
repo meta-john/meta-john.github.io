@@ -1,6 +1,7 @@
-name: ci
+name: Deploy
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -40,6 +41,12 @@ jobs:
       - name: Install dependencies 👨🏻‍💻
         run: yarn
 
-      - name: Run linter 👀
-        run: yarn lint
+      - name: Nuxt generate 🚀
+        run: yarn generate
 
+      - name: Deploy 🚀🚀🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.7
+        with:
+          commit-message: "@${{ github.sha }}"
+          branch: gh-pages
+          folder: dist
