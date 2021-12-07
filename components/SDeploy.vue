@@ -2,9 +2,11 @@
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div class="relative bg-white py-16 sm:py-24 lg:py-32">
     <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-      <h2 class="text-base font-semibold tracking-wider text-indigo-600 uppercase">Deploy faster</h2>
+      <h2 class="text-base font-semibold tracking-wider text-indigo-600 uppercase">
+        Morbi at efficitur
+      </h2>
       <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-        Everything you need to deploy your app
+        Curabitur nulla risus, varius vitae dolor at
       </p>
       <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
         Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.
@@ -22,7 +24,9 @@
                   </svg>
                 </span>
                 </div>
-                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Push to Deploy</h3>
+                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                  Porta tempus
+                </h3>
                 <p class="mt-5 text-base text-gray-500">
                   Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
                 </p>
@@ -41,7 +45,9 @@
                   </svg>
                 </span>
                 </div>
-                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">SSL Certificates</h3>
+                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                  Nullam efficitur
+                </h3>
                 <p class="mt-5 text-base text-gray-500">
                   Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
                 </p>
@@ -60,7 +66,9 @@
                   </svg>
                 </span>
                 </div>
-                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Simple Queues</h3>
+                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                  Turpis id euismod
+                </h3>
                 <p class="mt-5 text-base text-gray-500">
                   Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
                 </p>
@@ -79,7 +87,9 @@
                   </svg>
                 </span>
                 </div>
-                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Advanced Security</h3>
+                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                  Ut enim tortor
+                </h3>
                 <p class="mt-5 text-base text-gray-500">
                   Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
                 </p>
@@ -99,7 +109,9 @@
                   </svg>
                 </span>
                 </div>
-                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Powerful API</h3>
+                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                  Fringilla at libero
+                </h3>
                 <p class="mt-5 text-base text-gray-500">
                   Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
                 </p>
@@ -118,7 +130,9 @@
                   </svg>
                 </span>
                 </div>
-                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Database Backups</h3>
+                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                  Praesent ante
+                </h3>
                 <p class="mt-5 text-base text-gray-500">
                   Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
                 </p>
