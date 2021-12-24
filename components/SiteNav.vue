@@ -7,7 +7,7 @@
           <div class="-ml-2 mr-2 flex items-center md:hidden">
             <!-- Mobile menu button -->
             <button type="button"
-                    class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                    class="btn-mobile-menu"
                     aria-controls="mobile-menu"
                     aria-expanded="false"
                     @click.stop='toggleMenuMobi'>
@@ -37,13 +37,19 @@
           </div>
         </div>
         <div class="flex items-center">
+          <div class="-ml-2 mr-2">
+            <!-- Mobile menu button -->
+            <button type="button"
+                    class="btn-translate-menu"
+                    aria-controls="mobile-menu"
+                    aria-expanded="false">
+              <span class="sr-only">Translate</span>
+              <HeroIconOutlineTranslate class='w-6 h-6' />
+            </button>
+          </div>
           <div class="flex-shrink-0">
             <button type="button" class="relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-              <!-- Heroicon name: solid/plus-sm -->
-              <svg class="-ml-1 mr-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
-              </svg>
-              <span>Consectetur</span>
+              <span>Connect</span>
             </button>
           </div>
           <div class="hidden md:ml-4 md:flex-shrink-0 md:flex md:items-center">
@@ -140,9 +146,10 @@
 <script>
 import HeroIconOutlineMenu from '~/components/HeroIconOutlineMenu'
 import HeroIconOutlineX from '~/components/HeroIconOutlineX'
+import HeroIconOutlineTranslate from '~/components/HeroIconOutlineTranslate'
 export default {
   name: 'SiteNav',
-  components: { HeroIconOutlineMenu, HeroIconOutlineX },
+  components: { HeroIconOutlineTranslate, HeroIconOutlineMenu, HeroIconOutlineX },
   methods: {
     toggleMenuMobi() {
       this.$store.dispatch('nav/TOGGLE_MENU_MOBI')
@@ -152,6 +159,26 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang='scss' scoped>
+.btn-mobile-menu {
+  @apply inline-flex items-center justify-center p-2 rounded-md text-gray-400;
+  &:hover {
+    @apply text-gray-500 bg-gray-100;
+  }
 
+  &:focus {
+    @apply outline-none ring-2 ring-inset ring-indigo-500;
+  }
+}
+
+.btn-translate-menu {
+  @apply inline-flex items-center justify-center p-2 rounded-md text-gray-400;
+  &:hover {
+    @apply text-gray-500 bg-gray-100;
+  }
+
+  &:focus {
+    @apply outline-none ring-2 ring-inset ring-indigo-500;
+  }
+}
 </style>
