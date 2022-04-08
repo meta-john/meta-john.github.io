@@ -19,7 +19,7 @@
     "nuxt": "^2.15.7",
     "nuxt-i18n": "^6.28.1",
     "vue-qr": "^3.2.2",
-    "web3": "^1.6.1"
+    "web3": "^1.7.3"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.2.0",
